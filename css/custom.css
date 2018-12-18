@@ -1,0 +1,167 @@
+@font-face{
+    font-family: Forte;
+    src: url(../font/Forte.ttf);
+    font-style: normal;
+}
+body{}
+header{
+    background: #24221d;
+    font-family: forte;
+    font-style: normal;
+    color: white;
+    text-transform: uppercase;
+    font-size: 12pt;
+}
+header nav{
+    height: 75px;
+}
+header a img{
+    width: 60px;
+}
+header span{
+        color: white;
+}
+header ul li a{
+    color: white !important;
+    margin: 0px 15px;
+}
+.about{
+    background: #ffffff;
+    text-align: center;
+    color: #24221d;
+    padding: 83px 0;
+}
+.about-us{}
+.about-us h1{
+    font-size: 18pt;
+    font-family: forte;
+    text-transform: uppercase;
+}
+.about-us p{
+    font-size: 12pt;
+    font-family: Myriad Pro;
+    margin: 20px 50px;
+}
+.book{
+    background: #282828;
+    padding: 40px 0;
+}
+.book-img{
+    padding: 0 35px;
+}
+.book-img img {
+    box-sizing: border-box;
+    box-shadow: 10px 10px 25px 0 #11100e;
+}
+.challenge-section{
+    padding: 50px 0;
+}
+.challenge-content{}
+.challenge-content h1{
+    text-align: center;
+    font-size: 18pt;
+    font-family: forte;
+    text-transform: uppercase;
+}
+.challenge-img{}
+.challenge-img img{}
+.challenge-content-p{
+    font-family: Myriad Pro;
+}
+.challenge-content-p img{
+    float: left;
+    margin: 0 0;
+    padding-right: 60px;
+    padding-top: 0px;
+}
+.challenge-content-p p{
+    text-align: left;
+    font-size: 12pt;
+    padding: 25px 0;
+    font-family: Myriad Pro;
+}
+.contact{
+    background-image: url(../images/books.jpg);
+    /* padding: 50px 0; */
+    position: relative;
+    width: 100%;
+    display: flex;
+    height: 100%;
+}
+.contact-overlay{
+    position: absolute;
+    opacity: .6;
+    height: 100%;
+    width: 100%;
+    background: #242f1d;
+}
+.contact-us{text-align: center;padding-top: 40px;padding-bottom: 50px;}
+.contact-us .form-group{width: 100%;padding: 5px 18%;}
+.contact-us h1{
+    text-align: center;
+    font-size: 18pt;
+    font-family: forte;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding-bottom: 20px;
+    /* padding: 60px 0; */
+}
+.contact-us .form-control{
+    font-size: 12pt;
+    font-family: Hobo Std;
+    color: #908e8b;
+    border-radius: inherit;
+    padding: 5px 20px;
+    background: #e2dedd;
+}
+.contact-us button {
+}
+.contact-us .sent-button{
+    font-family: Hobo Std;
+    font-size: 16pt;
+    padding: 5px 40px;
+    background: #24221d;
+    color: #ffffff;
+    border-radius: inherit;
+    border: none;
+    text-transform: uppercase;
+}
+.contact-us .sent-button:hover{
+    font-family: Hobo Std;
+    font-size: 16pt;
+    padding: 5px 40px;
+    background:#ffffff;
+    color: #24221d;
+    border-radius: inherit;
+    border: none;
+    text-transform: uppercase;
+}
+.contact-us span{
+}
+footer{
+    background-color: #393630;
+    color: #ffffff;
+    font-size: 12pt;
+    font-family: Hobo Std;
+    overflow: hidden;
+    height: 75px;
+
+}
+.footer-content{
+    padding: 25px 0;
+}
+.copyright{
+    float: left;
+}
+.copyright p{}
+.made{
+    float: right;
+}
+.made p{}
+.made p span{
+    color: red;
+}
+/* Credit:
+  Md.Abdullah(kafi)
+  https://www.facebook.com/kafiabdullah27
+ */

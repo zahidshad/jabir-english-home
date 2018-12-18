@@ -1,0 +1,180 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 320px) {
+	header span{
+	font-size: 8pt;
+	}
+	header nav{
+	height: auto;
+	}
+	header ul li a{
+	text-align: center;
+	}
+	.about{
+	padding: 30px 0;
+	}
+	.book-img{
+	padding: 20px 35px;
+	}
+	.challenge-content-p img{
+	padding-right: 0;
+	padding-left: 30px;
+	padding-top: 15px;
+	}
+	footer{
+		height: auto;
+
+	}
+	.made p{
+	padding-right: 60px;
+	}
+	.copyright p{
+}
+       
+}
+@media (min-width: 321px) and (max-width: 412px) {
+	
+	header span{
+	font-size: 8pt;
+	}
+	header nav{
+	height: auto;
+	}
+	header ul li a{
+	text-align: center;
+	}
+	.about{
+	padding: 30px 0;
+	}
+	.book-img{
+	padding: 20px 35px;
+	}
+	.challenge-content-p img{
+	padding-right: 0 !important;
+	padding-left: 35px !important;
+	padding-top: 15px !important;
+	}
+	footer{
+		height: auto;
+
+	}
+	.made p{
+	padding-right: 75px !important;
+	}
+	.copyright p{}
+
+        
+}
+@media (max-width: 575px) and (min-width: 321px){
+	header span{
+	font-size: 10pt;
+	}
+	header nav{
+	height: auto;
+	}
+	header ul li a{
+	text-align: center;
+	}
+	.about{
+	padding: 30px 0;
+	}
+	.book-img{
+	padding: 20px 35px;
+	}
+	.challenge-content-p img{
+	padding-right: 0;
+	padding-left: 60px;
+	padding-top: 15px;
+	}
+	footer{
+		height: auto;
+	}
+	.made p{
+	padding-right: 110px;
+	}
+	.challenge-content-p p{padding-top: 80%;}
+	.copyright p{
+    padding-left: 10px;
+}
+}
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+	
+	header span{
+	font-size: 8pt;
+	}
+	header nav{
+	height: auto;
+	}
+	header ul li a{
+	text-align: right;
+	}
+	.about{
+	padding: 30px 0;
+	}
+	.book-img{
+	padding: 20px 35px;
+	}
+	.challenge-content-p img{
+	padding-right: 0;
+	padding-left: 30px;
+	padding-top: 15px;
+	}
+	footer{
+		height: auto;
+
+	}
+	.made p{
+	padding: 0px 81px;
+	}
+.copyright p{}
+        
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+
+	
+	header span{
+	font-size: 16pt;
+	}
+	header nav{
+	height: auto;
+	}
+	header ul li a{
+	text-align: center;
+	}
+	.about{
+	padding: 30px 0;
+	}
+	.book-img{
+	}
+	.challenge-content-p img{
+	padding-right: 0;
+	padding-top: 25px;
+	}
+	footer{
+		height: auto;
+
+	}
+	.made p{
+	padding: 0px 81px;
+	}
+	.copyright p{}
+
+	
+        
+}
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1134px) {
+       
+}
+@media (min-width: 1135px) and (max-width: 1199.98px) {}
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1475px) {
+}
+/* Credit:
+  Md.Abdullah(kafi)
+  https://www.facebook.com/kafiabdullah27
+ */
